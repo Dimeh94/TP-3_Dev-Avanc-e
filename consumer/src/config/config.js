@@ -11,6 +11,7 @@ export const getConfigNumber = () => {
     decimalValue: Number(process.env.DECIMAL_VALUE),
     signed: signe,
   };
+  
 };
 
 export const getTypeMessage = () => {
